@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cl-lab.info/static/css/cc.css" rel="stylesheet">
+    <link href='https://cl-lab.info/static/images/favicon.png' rel='icon' type='image/png'>
+    <title>Проверка справки Covid-19 | Verification of a COVID-19 document</title>
+  </head>
+  <body>
+    <div class="info wrapper">
+      <div class="flex">
+	<div class="info__header">
+                <h2>Проверка справки Covid-19</h2>
+               <span>Verification of a COVID-19 document
+               </span>
+           </div>
+        <div class="logo">
+          <a href="https://cl-lab.info">
+            <img src="https://cl-lab.info/static/images/logo.svg" />
+          </a>
+        </div>
+      </div>
+      <div class="info__table">
+        <div class="info__item flex info__check">
+          <img class="info__img" src="https://cl-lab.info/static/check.svg" />
+          <div>
+            <h3 class="info__title">Справка действительна</h3>
+            <span class="info__subtitle">The document is valid</span>
+          </div>
+        </div>
+        <div class="info__item">
+          <div class="inline-block">
+            <div class="info__label">Пациент</div>
+            <div class="info__text">
+              П********о В. И.
+            </div>
+          </div>
+          <div class="inline-block">
+            <div class="info__label">Год рождения</div>
+            <div class="info__text">1994</div>
+          </div>
+          <div class="info__label">День сдачи теста</div>
+          <div class="info__text">02/11/2021</div>
+          <div class="info__label">ПЦР Коронавирус SARS-CoV-2</div>
+          <div class="info__text">Обнаружена РНК COVID - 19</div>
+        </div>
+        <div class="info__item" style="border-bottom: 0px">
+          <div class="inline-block">
+            <div class="info__label">Patient</div>
+            <div class="info__text">
+              P********o V.
+              I.
+            </div>
+          </div>
+          <div class="inline-block">
+            <div class="info__label">Year of birth</div>
+            <div class="info__text">1994</div>
+          </div>
+          <div class="info__label">Test date</div>
+          <div class="info__text">11-02-2021</div>
+          <div class="info__label">PCR Coronavirus SARS-CoV-2</div>
+          <div class="info__text">Positive RNA of SARS-CoV-2 detected</div>
+        </div>
+      </div>
+	<div class="info__footer">
+            <div class="info__footer-text"> Единая справочная | Сontact center</div>
+            <a class="info__footer-phone" href="tel:+78007004010">8 800 700 40 10</a> 
+            <div class="info__footer-text">ООО "СЛ МедикалГруп"</div>
+            <div class="info__footer-text">"CL Medical group" Ltd</div>
+            <div class="info__footer-text">© 2006 - 2021 CL, все права защищены</div>
+        </div>
+    </div>
+  </body>
+</html>
+
